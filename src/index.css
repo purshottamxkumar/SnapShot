@@ -1,13 +1,108 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+#main-heading {
+  padding: 4%;
+  font-size: 3.5em;
+}
+
+.modified-btn {
+  border: 1px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.App {
+  width: 100%;
+  margin: auto;
+
+  border: 2px solid red;
+}
+
+.middle-section {
+  padding-bottom: 0.5%;
+}
+/* border: 2px solid chocolate; */
+
+.search-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+
+  /* border: 2px solid green; */
+}
+
+#search-field {
+  width: 65%;
+  border: 1px solid black;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+  color: black;
+  padding: 15px;
+  font-size: 1.5em;
+
+  height: 100%;
+}
+
+#search-field:focus {
+  outline: 2px;
+}
+
+#search-btn {
+  padding: 4px 4px 0 4px;
+  background-color: white;
+  border-radius: 0 5px 5px 0;
+  width: 90px;
+  
+  height: 100%;
+  border: 1px solid black;
+  border-left: 1.5px solid black;
+}
+
+#search-btn:hover {
+  cursor: pointer;
+}
+
+#search-btn-img {
+  height: 50.5px;
+}
+
+.option-btn-section {
+  padding: 2% 0;
+  width: 50%;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* border: 2px solid pink; */
+}
+
+#option-btn {
+  background-color: #333;
+  color: white;
+  padding: 2%;
+  border-radius: 15px;
+  min-width: 100px;
+
+  font-size: 1em;
+}
+
+#option-btn:hover {
+  background-color: #555;
 }
