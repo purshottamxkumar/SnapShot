@@ -17,6 +17,9 @@ function App() {
           <button id="option-btn" className="modified-btn">Food</button>
         </div>
       </div>
+      <div className="github-link">
+        <a href="https://www.github.com/purshottamxkumar/snapshot" target="_blank" rel="noopener noreferrer">Fork On Github</a>
+      </div>
     </div>
   );
 }
